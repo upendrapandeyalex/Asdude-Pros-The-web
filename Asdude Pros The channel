@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASDudeProDamn - YouTube Channel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ASDudeProDamn</h1>
+        <p>Your go-to channel for amazing content!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About the Channel</h2>
+            <p>Join me on my journey as I explore various topics, share tips, and entertain you with my videos. Don't forget to subscribe!</p>
+        </section>
+
+        <section>
+            <h2>Visit My Channel</h2>
+            <p>
+                Click the link below to visit my YouTube channel and subscribe:
+                <br>
+                <a href="https://youtube.com/@asdudeprodamn?si=vbiaaM1aEs0K2ttZ" target="_blank">https://youtube.com/@asdudeprodamn?si=vbiaaM1aEs0K2ttZ</a>
+            </p>
+            <p>
+                <strong>👉 Don't forget to hit the subscribe button on my channel!</strong>
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 ASDudeProDamn. All rights reserved.</p>
+    </footer>
+</body>
+</html>
